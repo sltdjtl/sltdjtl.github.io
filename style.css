@@ -1,6 +1,19 @@
-a {
-  color: red;
-}
 a:hover{
   color:green;
+}
+main{
+  display flex;
+  justify-content: flex-start;
+  flex auto;
+}
+body{
+  display flex;
+  justify-content:flex-start;
+  flex-direction: column;
+}
+aside{
+  flex=1;
+}
+article{
+  flex=3;
 }
