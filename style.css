@@ -2,18 +2,18 @@ a:hover{
   color:green;
 }
 main{
-  display flex;
-  justify-content: flex-start;
-  flex auto;
+  display:flex;
+  justify-content:flex-start;
+  flex:auto;
 }
 body{
-  display flex;
+  display:flex;
   justify-content:flex-start;
-  flex-direction: column;
+  flex-direction:column;
 }
 aside{
-  flex=1;
+  flex:1;
 }
 article{
-  flex=3;
+  flex:3;
 }
