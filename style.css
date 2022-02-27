@@ -17,6 +17,7 @@ body{
 }
 aside{
   flex:1;
+  color:#FFFFBB;
 }
 article{
   flex:3;
