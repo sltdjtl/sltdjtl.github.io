@@ -7,7 +7,8 @@
   <title><strong>Lots-o'-Huggin' Bear</strong></title>
   <link href="https://www.adalab.cn/admission.css" rel="stylesheet">
   <link href="style.css" rel="stylesheet">
-  <script src="thumbnail.js"></script>                                    
+  <script src="thumbnail.js"></script>      
+  <script src="//cdn.jsdelivr.net/npm/@waline/client"></script>
 </head>
                                         
 <body>
@@ -26,6 +27,13 @@
                          <p>Whatch more about Lotso...</p>
                          <iframe src="//player.bilibili.com/player.html?aid=66302505&bvid=BV1m4411m731&cid=114993865&page=1"&high_quality=1&danmaku=0" allowfullscreen="allowfullscreen" width="100%" height="500" scrolling="no" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"></iframe>
                          <p>迷人的反派，身上散发香甜的草莓味......</p>
+ <div id="waline"></div>
+  <script>
+    Waline({
+      el: '#waline',
+      serverURL: 'https://your-domain.vercel.app',
+    });
+  </script>
 <p><strong><a href="https://sltdjtl.github.io/index.html">返回主页</a></strong></p>
 </article>
 </main>
