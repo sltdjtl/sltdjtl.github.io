@@ -21,6 +21,6 @@ aside{
 article{
   flex:3;
 }
-ul{
+ul.nav li{
   background-color:##FFFFBB;
 }
